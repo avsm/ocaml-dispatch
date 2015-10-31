@@ -39,7 +39,7 @@ Executable test_dispatch
   Build$:           flag(tests)
   CompiledObject:   best
   Install:          false
-  BuildDepends:     dispatch, result, oUnit (>= 1.0.2)
+  BuildDepends:     dispatch, result, alcotest (>= 0.4.0)
 
 Test test_dispatch
   Run$:             flag(tests)

@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: 4c7fa4ec3458532ffc30ee97f4267b42)
+# DO NOT EDIT (digest: 99180ae4db17c07e543119c099865643)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -24,10 +24,10 @@ true: annot, bin_annot
 <js/*.ml{,i,y}>: pkg_result
 <js/*.ml{,i,y}>: use_dispatch
 # Executable test_dispatch
-<lib_test/test_dispatch.{native,byte}>: pkg_oUnit
+<lib_test/test_dispatch.{native,byte}>: pkg_alcotest
 <lib_test/test_dispatch.{native,byte}>: pkg_result
 <lib_test/test_dispatch.{native,byte}>: use_dispatch
-<lib_test/*.ml{,i,y}>: pkg_oUnit
+<lib_test/*.ml{,i,y}>: pkg_alcotest
 <lib_test/*.ml{,i,y}>: pkg_result
 <lib_test/*.ml{,i,y}>: use_dispatch
 # OASIS_STOP

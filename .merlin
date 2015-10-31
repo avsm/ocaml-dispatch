@@ -1,2 +1,5 @@
 S lib
 B _build/**
+
+PKG alcotest
+PKG js_of_ocaml
